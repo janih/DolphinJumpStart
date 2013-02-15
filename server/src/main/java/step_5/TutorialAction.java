@@ -18,6 +18,6 @@ public class TutorialAction implements NamedCommandHandler {
 
     @Override
     public void handleCommand(NamedCommand command, List<Command> response) {
-        System.out.println(config.getAt(PERSON_MODEL_ID).getAt(FIRSTNAME_ID).getValue());
+        System.out.println(config.getAt(PM_PERSON).getAt(ATT_FIRSTNAME).getValue());
     }
 }

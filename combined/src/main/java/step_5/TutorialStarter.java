@@ -5,12 +5,12 @@ import com.canoo.dolphin.core.comm.DefaultInMemoryConfig;
 import com.canoo.dolphin.core.server.ServerDolphin;
 import javafx.application.Application;
 
-import static step_5.TutorialConstants.COMMAND_ID;
+import static step_5.TutorialConstants.CMD_LOG;
 
 public class TutorialStarter {
 
     private static void addServerSideAction(final ServerDolphin config) {
-        config.action(COMMAND_ID, new TutorialAction(config));
+        config.action(CMD_LOG, new TutorialAction(config));
     }
 
     public static void main(String[] args) throws Exception {

@@ -41,7 +41,7 @@ public class TutorialApplication extends Application {
 
 
     public TutorialApplication() {
-        textAttributeModel = clientDolphin.presentationModel(PERSON_MODEL_ID, new ClientAttribute(FIRSTNAME_ID, ""));
+        textAttributeModel = clientDolphin.presentationModel(PM_PERSON, new ClientAttribute(ATT_FIRSTNAME, ""));
     }
 
     @Override
@@ -66,8 +66,8 @@ public class TutorialApplication extends Application {
     }
 
     private void setupBinding() {
-        JFXBinder.bind("text").of(textField).to(FIRSTNAME_ID).of(textAttributeModel);
-        JFXBinder.bind(FIRSTNAME_ID).of(textAttributeModel).to("text").of(textField);
+        JFXBinder.bind("text").of(textField).to(ATT_FIRSTNAME).of(textAttributeModel);
+        JFXBinder.bind(ATT_FIRSTNAME).of(textAttributeModel).to("text").of(textField);
 
         JFXBinder.bindInfo("dirty").of(textAttributeModel).to("style").of(textField, new Closure(null) {
             public String call(Boolean dirty) {
@@ -93,7 +93,7 @@ public class TutorialApplication extends Application {
                 onFinished(new EventHandler<ActionEvent>() {
                     @Override
                     public void handle(ActionEvent actionEvent) {
-                        textAttributeModel.getAt(FIRSTNAME_ID).reset();
+                        textAttributeModel.getAt(ATT_FIRSTNAME).reset();
                         fadeIn.playFromStart();
                     }
                 }).build();
@@ -125,10 +125,10 @@ public class TutorialApplication extends Application {
 
         @Override
         public void handle(Event event) {
-            clientDolphin.send(COMMAND_ID, new OnFinishedHandlerAdapter() {
+            clientDolphin.send(CMD_LOG, new OnFinishedHandlerAdapter() {
                 @Override
                 public void onFinished(List<ClientPresentationModel> presentationModels) {
-                    model.getAt(FIRSTNAME_ID).rebase();
+                    model.getAt(ATT_FIRSTNAME).rebase();
                 }
             });
         }
