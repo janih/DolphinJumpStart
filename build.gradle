@@ -6,6 +6,9 @@ subprojects {
     repositories {
         mavenCentral()
         mavenLocal()
+        maven {
+            url 'https://ci.canoo.com/nexus/content/repositories/public-releases'
+        }
     }
 }
 

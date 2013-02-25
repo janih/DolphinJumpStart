@@ -11,7 +11,7 @@
     <repositories>
         <repository>
             <id>Dolhin</id>
-            <url>https://ci.canoo.com/nexus/content/repositories/releases</url>
+            <url>https://ci.canoo.com/nexus/content/repositories/public-releases</url>
         </repository>
     </repositories>
     <modules>
