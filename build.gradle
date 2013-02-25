@@ -1,7 +1,18 @@
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+
 subprojects {
     apply plugin: 'java'
     repositories {
         mavenCentral()
         mavenLocal()
     }
+}
+
+task zipJumpstart(type: Zip) {
+    archiveName = 'jumpstart.zip'
+    destinationDir = file('dist')
+    def beginnerSteps = (0..5).collect { "**/step_$it/".toString() }
+    excludes = ['dist','.*','**/build/','**/target/','gradle-app.setting','atlassian*','**/*.iml'] + beginnerSteps
+    from '.'
 }
