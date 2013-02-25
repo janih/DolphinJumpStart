@@ -11,23 +11,21 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.canoo.dolphin:dolphin-client-javafx:0.5-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-all:1.8.8" level="project" />
+    <orderEntry type="library" name="Maven: com.canoo.dolphin:dolphin-combined:0.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.canoo.dolphin:dolphin-server:0.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.canoo.dolphin:dolphin-shared:0.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.gpars:gpars:1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jsr166-mirror:jsr166y:1.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-all:2.1.1" level="project" />
     <orderEntry type="library" name="Maven: com.canoo.dolphin:dolphin-client:0.5-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.2.1" level="project" />
     <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.6" level="project" />
-    <orderEntry type="library" name="Maven: com.canoo.dolphin:dolphin-shared:0.5-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.gpars:gpars:1.0.0" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.jsr166-mirror:jsr166y:1.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.codehaus.groovyfx:groovyfx:0.2" level="project" />
-    <orderEntry type="library" name="Maven: asm:asm:3.3.1" level="project" />
-    <orderEntry type="library" name="Maven: com.canoo.dolphin:dolphin-combined:0.5-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.canoo.dolphin:dolphin-server:0.5-SNAPSHOT" level="project" />
     <orderEntry type="module" module-name="server" />
     <orderEntry type="module" module-name="shared" />
     <orderEntry type="module" module-name="client" />
+    <orderEntry type="library" name="Maven: com.canoo.dolphin:dolphin-client-javafx:0.5-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: javafx:javafx:2.1" level="project" />
   </component>
 </module>
