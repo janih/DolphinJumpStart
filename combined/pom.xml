@@ -13,9 +13,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.canoo.dolphin</groupId>
+            <groupId>org.opendolphin</groupId>
             <artifactId>dolphin-combined</artifactId>
-            <version>0.5-SNAPSHOT</version>
+            <version>0.8-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>MyFirstDolphin</groupId>

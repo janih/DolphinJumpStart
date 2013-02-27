@@ -1,4 +1,4 @@
 dependencies {
     compile project(':shared')
-    compile "com.canoo.dolphin:dolphin-server:$dolphinVersion"
+    compile "org.opendolphin:dolphin-server:$dolphinVersion"
 }

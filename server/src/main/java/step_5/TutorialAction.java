@@ -1,9 +1,9 @@
 package step_5;
 
-import com.canoo.dolphin.core.comm.Command;
-import com.canoo.dolphin.core.comm.NamedCommand;
-import com.canoo.dolphin.core.server.ServerDolphin;
-import com.canoo.dolphin.core.server.comm.NamedCommandHandler;
+import org.opendolphin.core.comm.Command;
+import org.opendolphin.core.comm.NamedCommand;
+import org.opendolphin.core.server.ServerDolphin;
+import org.opendolphin.core.server.comm.NamedCommandHandler;
 
 import java.util.List;
 

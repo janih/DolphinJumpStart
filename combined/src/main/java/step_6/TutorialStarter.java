@@ -1,25 +1,22 @@
 package step_6;
 
-import com.canoo.dolphin.core.client.comm.JavaFXUiThreadHandler;
-import com.canoo.dolphin.core.comm.DefaultInMemoryConfig;
-import com.canoo.dolphin.core.server.ServerDolphin;
 import javafx.application.Application;
-
-import static step_6.TutorialConstants.CMD_LOG;
+import org.opendolphin.core.client.comm.JavaFXUiThreadHandler;
+import org.opendolphin.core.comm.DefaultInMemoryConfig;
 
 public class TutorialStarter {
-
-    private static void addServerSideAction(final ServerDolphin config) {
-        config.action(CMD_LOG, new TutorialAction(config));
-    }
 
     public static void main(String[] args) throws Exception {
         DefaultInMemoryConfig config = new DefaultInMemoryConfig();
         config.registerDefaultActions();
         config.getClientDolphin().getClientConnector().setUiThreadHandler(new JavaFXUiThreadHandler());
-        addServerSideAction(config.getServerDolphin());
+        addActions(config);
         TutorialApplication.clientDolphin = config.getClientDolphin();
         Application.launch(TutorialApplication.class);
+    }
+
+    private static void addActions(DefaultInMemoryConfig config) {
+        config.getServerDolphin().register(new TutorialDirector());
     }
 
 }

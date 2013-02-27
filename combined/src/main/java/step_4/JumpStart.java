@@ -1,15 +1,15 @@
 package step_4;
 
-import com.canoo.dolphin.binding.JFXBinder;
-import com.canoo.dolphin.core.PresentationModel;
-import com.canoo.dolphin.core.client.ClientAttribute;
-import com.canoo.dolphin.core.client.ClientPresentationModel;
-import com.canoo.dolphin.core.client.comm.JavaFXUiThreadHandler;
-import com.canoo.dolphin.core.client.comm.OnFinishedHandlerAdapter;
-import com.canoo.dolphin.core.comm.Command;
-import com.canoo.dolphin.core.comm.DefaultInMemoryConfig;
-import com.canoo.dolphin.core.comm.NamedCommand;
-import com.canoo.dolphin.core.server.comm.NamedCommandHandler;
+import org.opendolphin.binding.JFXBinder;
+import org.opendolphin.core.PresentationModel;
+import org.opendolphin.core.client.ClientAttribute;
+import org.opendolphin.core.client.ClientPresentationModel;
+import org.opendolphin.core.client.comm.JavaFXUiThreadHandler;
+import org.opendolphin.core.client.comm.OnFinishedHandlerAdapter;
+import org.opendolphin.core.comm.Command;
+import org.opendolphin.core.comm.DefaultInMemoryConfig;
+import org.opendolphin.core.comm.NamedCommand;
+import org.opendolphin.core.server.comm.NamedCommandHandler;
 import groovy.lang.Closure;
 import javafx.application.Application;
 import javafx.event.ActionEvent;

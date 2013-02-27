@@ -11,11 +11,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.canoo.dolphin:dolphin-server:0.5-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: com.canoo.dolphin:dolphin-shared:0.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.opendolphin:dolphin-server:0.8-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.opendolphin:dolphin-shared:0.8-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.gpars:gpars:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jsr166-mirror:jsr166y:1.7.0" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-all:2.1.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="module" module-name="shared" />
   </component>
 </module>

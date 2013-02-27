@@ -1,6 +1,6 @@
 dependencies {
     compile project.files("${System.properties['java.home']}/lib/jfxrt.jar")
     compile project(':shared')
-    compile "com.canoo.dolphin:dolphin-client-javafx:$dolphinVersion"
-    compile "com.canoo.dolphin:dolphin-client:$dolphinVersion"
+    compile "org.opendolphin:dolphin-client-javafx:$dolphinVersion"
+    compile "org.opendolphin:dolphin-client:$dolphinVersion"
 }

@@ -1,8 +1,8 @@
 package step_5;
 
-import com.canoo.dolphin.core.client.comm.JavaFXUiThreadHandler;
-import com.canoo.dolphin.core.comm.DefaultInMemoryConfig;
-import com.canoo.dolphin.core.server.ServerDolphin;
+import org.opendolphin.core.client.comm.JavaFXUiThreadHandler;
+import org.opendolphin.core.comm.DefaultInMemoryConfig;
+import org.opendolphin.core.server.ServerDolphin;
 import javafx.application.Application;
 
 import static step_5.TutorialConstants.CMD_LOG;

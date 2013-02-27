@@ -1,11 +1,11 @@
 package step_6;
 
-import com.canoo.dolphin.binding.JFXBinder;
-import com.canoo.dolphin.core.PresentationModel;
-import com.canoo.dolphin.core.client.ClientAttribute;
-import com.canoo.dolphin.core.client.ClientDolphin;
-import com.canoo.dolphin.core.client.ClientPresentationModel;
-import com.canoo.dolphin.core.client.comm.OnFinishedHandlerAdapter;
+import org.opendolphin.binding.JFXBinder;
+import org.opendolphin.core.PresentationModel;
+import org.opendolphin.core.client.ClientAttribute;
+import org.opendolphin.core.client.ClientDolphin;
+import org.opendolphin.core.client.ClientPresentationModel;
+import org.opendolphin.core.client.comm.OnFinishedHandlerAdapter;
 import groovy.lang.Closure;
 import javafx.animation.Interpolator;
 import javafx.animation.RotateTransitionBuilder;
