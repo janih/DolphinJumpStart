@@ -13,12 +13,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.opendolphin</groupId>
+            <groupId>org.open-dolphin</groupId>
             <artifactId>dolphin-client-javafx</artifactId>
             <version>0.8-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>org.opendolphin</groupId>
+            <groupId>org.open-dolphin</groupId>
             <artifactId>dolphin-client</artifactId>
             <version>0.8-SNAPSHOT</version>
         </dependency>

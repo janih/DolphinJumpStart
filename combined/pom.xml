@@ -13,7 +13,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.opendolphin</groupId>
+            <groupId>org.open-dolphin</groupId>
             <artifactId>dolphin-combined</artifactId>
             <version>0.8-SNAPSHOT</version>
         </dependency>
