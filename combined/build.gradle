@@ -1,5 +1,5 @@
 dependencies {
     compile project(':client')
     compile project(':server')
-    compile "org.opendolphin:dolphin-combined:$dolphinVersion"
+    compile "org.open-dolphin:dolphin-combined:$dolphinVersion"
 }

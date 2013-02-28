@@ -8,12 +8,6 @@
     <artifactId>MyFirstDolphin</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <repositories>
-        <repository>
-            <id>Dolphin</id>
-            <url>https://oss.sonatype.org/content/groups/public</url>
-        </repository>
-    </repositories>
     <modules>
         <module>combined</module>
         <module>server</module>
@@ -70,6 +64,6 @@
     </dependencyManagement>
 
     <properties>
-        <dolphin-version>0.8-SNAPSHOT</dolphin-version>
+        <dolphin-version>0.7</dolphin-version>
     </properties>
 </project>
