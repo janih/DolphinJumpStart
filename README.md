@@ -29,7 +29,7 @@ It contains the following modules/projects
 ##The introduction steps##
 
 We implement a very simple application that contains only one text field and two buttons to
-'save' or 'reset' the value. 'Saving' will do nothing else but printing the current field value
+'save' or 'reset' the value. 'Saving' will do nothing but printing the current field value
 on the server side.
 
 Both buttons are only enabled if there is really something to save/reset, i.e. the field value is dirty.
@@ -39,4 +39,4 @@ Resetting triggers a 'shake' animation.
 Steps 0 to 4 solely live in the "combined" module for a simple jumpstart before we properly
 split client and server in step 5 and only keep a starter class in "combined".
 
-Step 7 produces a @war@ file that you can deploy on e.g. tomcat and the client starter moves to the "client" module.
+Step 7 produces a war file that you can deploy on e.g. tomcat and the client starter moves to the "client" module.
