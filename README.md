@@ -40,3 +40,21 @@ Steps 0 to 4 solely live in the "combined" module for a simple jumpstart before 
 split client and server in step 5 and only keep a starter class in "combined".
 
 Step 7 produces a war file that you can deploy on e.g. tomcat and the client starter moves to the "client" module.
+
+- step 0 : Start a simple JavaFX view - only to validate that JavaFX is available.
+- step 1 : Adding Nodes to stage, register onAction Handler.
+- step 2 : Introducing a presentation model with one attribute and bind the value. Simple in-line setup in start method.
+- step 3 : Logical separation between client and server.
+- step 4 : Bind additional info like "dirty" of client attributes to the view.
+- step 5 : Split into modules/projects. Use shared constants. Actions can no longer refer to any view (not on CP).
+- step 6 : Shake on reset, better view factoring, let the "director" wire all application actions.
+- step 7 : Remote setup. Generate self-contained war file. Move starter to client module.
+
+##More Info##
+
+This has only been a first glance into the way that OpenDolphin operates.
+
+Many more features are available and you may want to check out the
+user guide (http://open-dolphin.org/download/guide/index.html), the
+other demos sources (http://github.com/canoo/open-dolphin/tree/master/subprojects/demo-javafx), or
+the video demos (http://www.youtube.com/user/dierkkoenig).
