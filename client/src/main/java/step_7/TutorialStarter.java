@@ -12,7 +12,7 @@ public class TutorialStarter {
     public static void main(String[] args) throws Exception {
         ClientDolphin clientDolphin = new ClientDolphin();
         clientDolphin.setClientModelStore(new ClientModelStore(clientDolphin));
-        HttpClientConnector connector = new HttpClientConnector(clientDolphin, "http://localhost:8080/myFirstDolphin/tutorial");
+        HttpClientConnector connector = new HttpClientConnector(clientDolphin, "http://localhost:8080/myFirstDolphin/tutorial/");
         connector.setCodec(new JsonCodec());
         connector.setUiThreadHandler(new JavaFXUiThreadHandler());
         clientDolphin.setClientConnector(connector);

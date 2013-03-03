@@ -28,7 +28,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="shared" />
     <orderEntry type="library" name="Maven: org.open-dolphin:dolphin-server:0.7" level="project" />
     <orderEntry type="library" name="Maven: org.open-dolphin:dolphin-shared:0.7" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.gpars:gpars:1.0.0" level="project" />
