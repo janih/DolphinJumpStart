@@ -10,7 +10,7 @@ import static step_5.TutorialConstants.CMD_LOG;
 public class TutorialStarter {
 
     private static void addServerSideAction(final ServerDolphin config) {
-        config.action(CMD_LOG, new TutorialAction(config));
+        config.register(new TutorialAction());
     }
 
     public static void main(String[] args) throws Exception {
