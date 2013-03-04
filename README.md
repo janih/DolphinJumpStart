@@ -26,6 +26,16 @@ It contains the following modules/projects
 - shared: this one is totally optional. If used, it typically contains shared constants between client and server.
 - combined: combines all the above in one JVM for starting with the in-memory configuration for develop/test/debug.
 
+##Running the samples##
+
+For the tutorial steps 0 to 4 there is a main class
+    ./combined/src/main/java/step_<stepId>/JumpStart.java
+which contains a static main method for execution.
+When running the main method you should see the tutorial application.
+Using Gradle you can call
+    gradlew run -Pstep=<step_id> // where step_id is between 0 and 7
+to start the tutorial application.
+
 ##The introduction steps##
 
 We implement a very simple application that contains only one text field and two buttons to
