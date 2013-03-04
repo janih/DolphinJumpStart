@@ -32,20 +32,19 @@ Using Gradle you can call the following to start the tutorial application.
 
     ./gradlew run -Pstep=<step_id> // where step_id is between 0 and 7
 
-- For the tutorial steps 0 to 4 there is a main class.
+
+For the tutorial steps 0 to 4 there is a main class.
 
     ./combined/src/main/java/step_<stepId>/JumpStart.java
 
-- For the steps 5,6 and 7 the static main part has been extracted into a starter class.
+For the steps 5,6 and 7 the static main part has been extracted into a starter class.
 
     ./combined/src/main/java/step_[5,6]/TutorialStarter.java
     ./client/src/main/java/step_7/TutorialStarter.java
 
 Running the main method of the classes mentioned above you should see the tutorial application.
 
-- When running the step_7 Tutorial make sure that the server application is running too.
-
-To do so, call
+When running the step_7 Tutorial make sure that the server application is running too.To do so, call
 
     ./gradlew :server-app:runJetty
 
