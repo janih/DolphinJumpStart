@@ -22,16 +22,18 @@ dependencies {
 task zipJumpstartGradle(type: Zip) {
     archiveName = 'jumpstart-gradle.zip'
     destinationDir = file('dist')
-    def beginnerSteps = (0..5).collect { "**/step_$it/".toString() }
-    excludes = ['classes', 'dist', 'out', '**/pom.xml', '.*', '**/build/', '**/target/', 'gradle-app.setting', 'atlassian*', '**/*.iml'] + beginnerSteps
+    excludes = ['README.md', 'build.gradle', 'server-app/build.gradle', 'server-app/src/main/webapp/WEB-INF/web.xml', 'settings.gradle', 'classes', 'dist', 'out', '**/pom.xml', '.*', '**/build/', '**/target/', 'gradle-app.setting', 'atlassian*', '**/*.i*', '**/step_*/']
     from '.'
+    rename('(.*)-template.(.*)', '$1.$2')
 }
+
 task zipJumpstartMaven(type: Zip) {
+    from '.'
     archiveName = 'jumpstart-maven.zip'
     destinationDir = file('dist')
-    def beginnerSteps = (0..5).collect { "**/step_$it/".toString() }
-    excludes = ['classes', 'dist', 'out', 'gradle.properties', '**/*.gradle', '.*', '**/build/', '**/target/', 'gradle-app.setting', 'atlassian*', '**/*.iml'] + beginnerSteps
-    from '.'
+    excludes = ['README.md','server-app/src/main/webapp/WEB-INF/web.xml', 'classes', 'dist', 'out', 'gradle*', '**/*.gradle', '.*', '**/build/', '**/target/', 'gradle-app.setting', 'atlassian*', '**/*.i*', '**/step_*/']
+    rename('(.*)-template.(.*)', '$1.$2')
+
 }
 
 task zipJumpstart(dependsOn: [zipJumpstartGradle, zipJumpstartMaven])
