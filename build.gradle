@@ -23,14 +23,14 @@ task zipJumpstartGradle(type: Zip) {
     archiveName = 'jumpstart-gradle.zip'
     destinationDir = file('dist')
     def beginnerSteps = (0..5).collect { "**/step_$it/".toString() }
-    excludes = ['classes', 'dist', '**/pom.xml', '.*', '**/build/', '**/target/', 'gradle-app.setting', 'atlassian*', '**/*.iml'] + beginnerSteps
+    excludes = ['classes', 'dist', 'out', '**/pom.xml', '.*', '**/build/', '**/target/', 'gradle-app.setting', 'atlassian*', '**/*.iml'] + beginnerSteps
     from '.'
 }
 task zipJumpstartMaven(type: Zip) {
     archiveName = 'jumpstart-maven.zip'
     destinationDir = file('dist')
     def beginnerSteps = (0..5).collect { "**/step_$it/".toString() }
-    excludes = ['classes', 'dist', 'gradle.properties', '**/*.gradle', '.*', '**/build/', '**/target/', 'gradle-app.setting', 'atlassian*', '**/*.iml'] + beginnerSteps
+    excludes = ['classes', 'dist', 'out', 'gradle.properties', '**/*.gradle', '.*', '**/build/', '**/target/', 'gradle-app.setting', 'atlassian*', '**/*.iml'] + beginnerSteps
     from '.'
 }
 
