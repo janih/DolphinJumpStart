@@ -1,5 +1,11 @@
 apply plugin: 'idea'
 apply plugin: 'eclipse'
+apply plugin: 'application'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
 
 subprojects {
     apply plugin: 'java'
@@ -7,6 +13,10 @@ subprojects {
         mavenCentral()
         mavenLocal()
     }
+}
+
+dependencies {
+    compile project(':combined')
 }
 
 task zipJumpstartGradle(type: Zip) {
@@ -25,3 +35,14 @@ task zipJumpstartMaven(type: Zip) {
 }
 
 task zipJumpstart(dependsOn: [zipJumpstartGradle, zipJumpstartMaven])
+
+if (!project.hasProperty('step') || !(project['step'] in ('0'..'7'))) {
+    throw new StopActionException('Specify the step id you want to run by passing command line parameter -Pstep=<step_id>. Allowed values are between 0 and 7.')
+}
+def runStep = project['step']
+if (runStep == '7'){
+    logger.lifecycle('Make sure that your server is running. on http://localhost:8080')
+}
+def sampleClass = runStep in ('0'..'4') ? "step_${runStep}.JumpStart" : "step_${runStep}.TutorialStarter"
+logger.lifecycle("Running main class : $sampleClass")
+mainClassName = sampleClass
