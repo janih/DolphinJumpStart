@@ -37,11 +37,13 @@ Using Gradle you can call the following to start the tutorial application.
 
     ./combined/src/main/java/step_<stepId>/JumpStart.java
 
+
 - For the steps 5,6 and 7 the static main part has been extracted into a starter class.
 
 
     ./combined/src/main/java/step_[5,6]/TutorialStarter.java
     ./client/src/main/java/step_7/TutorialStarter.java
+
 
 Running the main method of the classes mentioned above you should see the tutorial application.
 
