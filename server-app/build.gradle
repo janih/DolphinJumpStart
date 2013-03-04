@@ -1,10 +1,16 @@
 apply plugin : 'war'
+apply plugin : 'jetty'
+
 dependencies {
     compile project(':server')
 }
 
 war {
     archiveName='myFirstDolphin.war'
+}
+
+jettyRun {
+    contextPath = 'myFirstDolphin'
 }
 
 
