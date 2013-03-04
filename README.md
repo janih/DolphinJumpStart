@@ -29,12 +29,15 @@ It contains the following modules/projects
 ##Running the samples##
 
 For the tutorial steps 0 to 4 there is a main class
+
     ./combined/src/main/java/step_<stepId>/JumpStart.java
+
 which contains a static main method for execution.
 When running the main method you should see the tutorial application.
-Using Gradle you can call
+
+Using Gradle you can call the following to start the tutorial application.
+
     gradlew run -Pstep=<step_id> // where step_id is between 0 and 7
-to start the tutorial application.
 
 ##The introduction steps##
 
