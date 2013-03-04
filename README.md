@@ -33,6 +33,10 @@ For the tutorial steps 0 to 4 there is a main class
     ./combined/src/main/java/step_<stepId>/JumpStart.java
 
 which contains a static main method for execution.
+For the steps 5 to 7 the static main part has been extracted into a starter class.
+
+    ./combined/src/main/java/step_<stepId>/TutorialStarter.java
+
 When running the main method you should see the tutorial application.
 
 Using Gradle you can call the following to start the tutorial application.
