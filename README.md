@@ -28,21 +28,28 @@ It contains the following modules/projects
 
 ##Running the samples##
 
-For the tutorial steps 0 to 4 there is a main class
+Using Gradle you can call the following to start the tutorial application.
+
+    ./gradlew run -Pstep=<step_id> // where step_id is between 0 and 7
+
+- For the tutorial steps 0 to 4 there is a main class.
+
 
     ./combined/src/main/java/step_<stepId>/JumpStart.java
 
-which contains a static main method for execution.
-For the steps 5 to 7 the static main part has been extracted into a starter class.
+- For the steps 5,6 and 7 the static main part has been extracted into a starter class.
+
 
     ./combined/src/main/java/step_[5,6]/TutorialStarter.java
     ./client/src/main/java/step_7/TutorialStarter.java
 
-When running the main method you should see the tutorial application.
+Running the main method of the classes mentioned above you should see the tutorial application.
 
-Using Gradle you can call the following to start the tutorial application.
+- When running the step_7 Tutorial make sure that the server application is running too.
 
-    gradlew run -Pstep=<step_id> // where step_id is between 0 and 7
+To do so, call
+
+    ./gradlew :server-app:runJetty
 
 ##The introduction steps##
 
