@@ -1,12 +1,9 @@
 package step_5;
 
 import org.opendolphin.core.comm.Command;
-import org.opendolphin.core.comm.NamedCommand;
-import org.opendolphin.core.server.ServerDolphin;
 import org.opendolphin.core.server.action.DolphinServerAction;
 import org.opendolphin.core.server.comm.ActionRegistry;
 import org.opendolphin.core.server.comm.CommandHandler;
-import org.opendolphin.core.server.comm.NamedCommandHandler;
 
 import java.util.List;
 

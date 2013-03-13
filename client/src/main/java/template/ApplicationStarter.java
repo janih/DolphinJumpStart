@@ -5,7 +5,6 @@ import org.opendolphin.core.client.ClientDolphin;
 import org.opendolphin.core.client.ClientModelStore;
 import org.opendolphin.core.client.comm.ClientConnector;
 import org.opendolphin.core.client.comm.HttpClientConnector;
-import org.opendolphin.core.client.comm.InMemoryClientConnector;
 import org.opendolphin.core.client.comm.JavaFXUiThreadHandler;
 import org.opendolphin.core.comm.JsonCodec;
 

@@ -5,8 +5,6 @@ import org.opendolphin.core.comm.DefaultInMemoryConfig;
 import org.opendolphin.core.server.ServerDolphin;
 import javafx.application.Application;
 
-import static step_5.TutorialConstants.CMD_LOG;
-
 public class TutorialStarter {
 
     private static void addServerSideAction(final ServerDolphin config) {
