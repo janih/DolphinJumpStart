@@ -46,7 +46,7 @@ Running the main method of the classes mentioned above you should see the tutori
 
 When running the step_7 Tutorial make sure that the server application is running too.To do so, call
 
-    ./gradlew :server-app:runJetty
+    ./gradlew :server-app:jettyRun
 
 ##The introduction steps##
 
