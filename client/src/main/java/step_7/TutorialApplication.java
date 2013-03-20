@@ -27,7 +27,7 @@ import org.opendolphin.core.client.comm.OnFinishedHandlerAdapter;
 
 import java.util.List;
 
-import static step_6.TutorialConstants.*;
+import static step_7.TutorialConstants.*;
 
 public class TutorialApplication extends Application {
 
