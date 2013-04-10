@@ -5,6 +5,9 @@ This project provides a step-by-step introduction to use OpenDolphin (http://ope
 - with views in JavaFX (you can use any other Java Toolkit as well)
 - with a simple Servlet (you can use any other Java Server technology as well: Grails, JEE6/7, Vert.x, etc.)
 
+A thorough description of all the steps in the jumpstart is in the OpenDolphin user guide:
+http://open-dolphin.org/download/guide/guide/howto.html
+
 ##Quick Setup##
 
 Prerequisite: Java 7 or above.

@@ -57,7 +57,7 @@ public class JumpStart extends Application {
         addClientSideAction();
         setupBinding();
 
-        stage.setScene(new Scene(root, 600, 300));
+        stage.setScene(new Scene(root, 300, 100));
         stage.show();
     }
 

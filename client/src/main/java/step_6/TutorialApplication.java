@@ -57,7 +57,7 @@ public class TutorialApplication extends Application {
         addClientSideAction();
         setupBinding();
 
-        Scene scene = new Scene(root, 300, 250);
+        Scene scene = new Scene(root, 300, 150);
         stage.setScene(scene);
         stage.setTitle(getClass().getName());
         scene.getStylesheets().add("/step_6/tutorial.css");

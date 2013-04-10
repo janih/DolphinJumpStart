@@ -9,11 +9,8 @@ public class JumpStart extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+        primaryStage.setScene(new Scene(new Pane(), 300, 100));
         primaryStage.setTitle("Dolphin Jump Start");
-        Pane root = new Pane();
-
-        primaryStage.setScene(new Scene(root, 300, 300));
-        primaryStage.setTitle(getClass().getName());
         primaryStage.show();
     }
 

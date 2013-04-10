@@ -31,7 +31,7 @@ public class JumpStart extends Application {
         addActions();
 
 
-        primaryStage.setScene(new Scene(root, 300, 300));
+        primaryStage.setScene(new Scene(root, 300, 100));
         primaryStage.setTitle(getClass().getName());
         primaryStage.show();
     }

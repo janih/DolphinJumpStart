@@ -8,5 +8,4 @@ public class TutorialConstants {
     private static String unique(String key) {
         return TutorialConstants.class.getName() + "." + key;
     }
-
 }
