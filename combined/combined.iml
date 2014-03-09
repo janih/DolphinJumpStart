@@ -29,7 +29,15 @@
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="module" module-name="client" />
     <orderEntry type="library" name="Maven: org.open-dolphin:dolphin-client-javafx:0.7" level="project" />
-    <orderEntry type="library" name="Maven: javafx:javafx:2.1" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: javafx:javafx:2.1">
+        <CLASSES>
+          <root url="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/jfxrt.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
 
