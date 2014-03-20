@@ -12,13 +12,11 @@ http://open-dolphin.org/download/guide/guide/howto.html
 
 Prerequisite: Java 7 or above.
 
-If you want to use OpenDolphin in a Maven environment, please download
+If you want to use OpenDolphin in a Maven environment,
+please [download dist/jumpstart-maven.zip](https://github.com/canoo/DolphinJumpStart/blob/master/dist/jumpstart-maven.zip?raw=true)
 
-    dist/jumpstart-maven.zip
-
-If you want to use OpenDolphin in a Gradle environment, please download
-
-    dist/jumpstart-gradle.zip
+If you want to use OpenDolphin in a Gradle environment,
+please [download dist/jumpstart-gradle.zip](https://github.com/canoo/DolphinJumpStart/blob/master/dist/jumpstart-gradle.zip?raw=true)
 
 Unzip to a location of you liking and you will see a jumpstart module/project structure
 that we consider a best practice.

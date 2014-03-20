@@ -7,7 +7,11 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/client" />
+    <file type="web" url="file://$PROJECT_DIR$/combined" />
+    <file type="web" url="file://$PROJECT_DIR$/server" />
     <file type="web" url="file://$PROJECT_DIR$/server-app" />
+    <file type="web" url="file://$PROJECT_DIR$/shared" />
   </component>
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" />
