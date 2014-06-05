@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.opendolphin.LogConfig;
 import org.opendolphin.core.client.comm.InMemoryClientConnector;
+import org.opendolphin.core.client.comm.SynchronousInMemoryClientConnector;
 import org.opendolphin.core.client.comm.UiThreadHandler;
 import org.opendolphin.core.comm.DefaultInMemoryConfig;
 
@@ -34,8 +35,7 @@ public class TutorialTests {
 
     private void setupConfig() {
         config = new DefaultInMemoryConfig();
-        InMemoryClientConnector inMemoryClientConnector = new InMemoryClientConnector(config.getClientDolphin());
-        inMemoryClientConnector.setProcessAsync(false);
+        InMemoryClientConnector inMemoryClientConnector = new SynchronousInMemoryClientConnector(config.getClientDolphin());
         inMemoryClientConnector.setServerConnector(config.getServerDolphin().getServerConnector());
         config.getClientDolphin().setClientConnector(inMemoryClientConnector);
     }

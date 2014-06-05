@@ -13,7 +13,7 @@ public class TutorialStarter {
 
     public static void main(String[] args) throws Exception {
         DefaultInMemoryConfig config = new DefaultInMemoryConfig();
-        config.registerDefaultActions();
+        config.getServerDolphin().registerDefaultActions();
         config.getClientDolphin().getClientConnector().setUiThreadHandler(new JavaFXUiThreadHandler());
         addServerSideAction(config.getServerDolphin());
         TutorialApplication.clientDolphin = config.getClientDolphin();

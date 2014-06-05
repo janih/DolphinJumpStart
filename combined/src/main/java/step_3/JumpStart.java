@@ -36,7 +36,7 @@ public class JumpStart extends Application {
         config = new DefaultInMemoryConfig();
         textAttributeModel = config.getClientDolphin().presentationModel(MODEL_ID, new ClientAttribute(MODEL_ATTRIBUTE_ID, ""));
         config.getClientDolphin().getClientConnector().setUiThreadHandler(new JavaFXUiThreadHandler());
-        config.registerDefaultActions();
+        config.getServerDolphin().registerDefaultActions();
     }
 
     @Override
