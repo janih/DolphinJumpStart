@@ -44,7 +44,7 @@ public class JumpStart extends Application {
         ).build();
 
         clientDolphin.getClientConnector().setUiThreadHandler(new JavaFXUiThreadHandler());
-        config.registerDefaultActions();
+        config.getServerDolphin().registerDefaultActions();
 
         PresentationModel input = clientDolphin.presentationModel("input", new ClientAttribute("text"));
 
