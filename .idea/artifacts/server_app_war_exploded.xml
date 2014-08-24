@@ -11,8 +11,8 @@
           <element id="archive" name="server-1.0-SNAPSHOT.jar">
             <element id="module-output" name="server" />
           </element>
-          <element id="library" level="project" name="Maven: org.open-dolphin:dolphin-server:0.7" />
-          <element id="library" level="project" name="Maven: org.open-dolphin:dolphin-shared:0.7" />
+          <element id="library" level="project" name="Maven: org.open-dolphin:dolphin-server:0.9" />
+          <element id="library" level="project" name="Maven: org.open-dolphin:dolphin-shared:0.9" />
           <element id="library" level="project" name="Maven: org.codehaus.gpars:gpars:1.0.0" />
           <element id="library" level="project" name="Maven: org.codehaus.jsr166-mirror:jsr166y:1.7.0" />
           <element id="library" level="project" name="Maven: org.codehaus.groovy:groovy-all:2.1.1" />

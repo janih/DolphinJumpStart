@@ -1344,28 +1344,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/open-dolphin/dolphin-server/0.7/dolphin-server-0.7.jar!/org/opendolphin/core/server/action/CreatePresentationModelAction.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/open-dolphin/dolphin-server/0.9/dolphin-server-0.9.jar!/org/opendolphin/core/server/action/CreatePresentationModelAction.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="7" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/open-dolphin/dolphin-server/0.7/dolphin-server-0.7.jar!/org/opendolphin/core/server/ServerDolphin.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/open-dolphin/dolphin-server/0.9/dolphin-server-0.9.jar!/org/opendolphin/core/server/ServerDolphin.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="12" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/open-dolphin/dolphin-shared/0.7/dolphin-shared-0.7.jar!/org/opendolphin/core/ModelStore.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/open-dolphin/dolphin-shared/0.9/dolphin-shared-0.9.jar!/org/opendolphin/core/ModelStore.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="3" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/open-dolphin/dolphin-shared/0.7/dolphin-shared-0.7.jar!/org/opendolphin/core/BasePresentationModel.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/open-dolphin/dolphin-shared/0.9/dolphin-shared-0.9.jar!/org/opendolphin/core/BasePresentationModel.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="1102">
           <caret line="6" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1400,7 +1400,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/open-dolphin/dolphin-server/0.7/dolphin-server-0.7.jar!/org/opendolphin/server/adapter/DolphinServlet.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/open-dolphin/dolphin-server/0.9/dolphin-server-0.9.jar!/org/opendolphin/server/adapter/DolphinServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="665">
           <caret line="26" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

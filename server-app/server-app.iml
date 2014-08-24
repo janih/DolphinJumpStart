@@ -25,8 +25,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="server" exported="" />
-    <orderEntry type="library" name="Maven: org.open-dolphin:dolphin-server:0.7" level="project" />
-    <orderEntry type="library" name="Maven: org.open-dolphin:dolphin-shared:0.7" level="project" />
+    <orderEntry type="library" name="Maven: org.open-dolphin:dolphin-server:0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.open-dolphin:dolphin-shared:0.9" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.gpars:gpars:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jsr166-mirror:jsr166y:1.7.0" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-all:2.1.1" level="project" />
