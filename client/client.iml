@@ -12,12 +12,12 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="shared" exported="" />
-    <orderEntry type="library" exported="" name="Gradle: dolphin-client-javafx-0.7" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: dolphin-client-0.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: dolphin-client-javafx-0.9" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: dolphin-client-0.9" level="project" />
     <orderEntry type="library" exported="" name="Gradle: groovy-all-2.1.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: jsr166y-1.7.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: gpars-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: dolphin-shared-0.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: dolphin-shared-0.9" level="project" />
     <orderEntry type="library" exported="" name="Gradle: httpcore-4.2.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: commons-logging-1.1.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: commons-codec-1.6" level="project" />

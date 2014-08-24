@@ -79,6 +79,6 @@
     </dependencyManagement>
 
     <properties>
-        <dolphin-version>0.7</dolphin-version>
+        <dolphin-version>0.9</dolphin-version>
     </properties>
 </project>

@@ -13,18 +13,18 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="server" exported="" />
     <orderEntry type="module" module-name="client" exported="" />
-    <orderEntry type="library" exported="" name="Gradle: dolphin-combined-0.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: dolphin-combined-0.9" level="project" />
     <orderEntry type="library" exported="" name="Gradle: groovy-all-2.1.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: jsr166y-1.7.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: gpars-1.0.0" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: dolphin-shared-0.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: dolphin-shared-0.9" level="project" />
     <orderEntry type="library" exported="" name="Gradle: httpcore-4.2.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: commons-logging-1.1.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: commons-codec-1.6" level="project" />
     <orderEntry type="library" exported="" name="Gradle: httpclient-4.2.1" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: dolphin-client-0.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: dolphin-client-0.9" level="project" />
     <orderEntry type="library" exported="" name="Gradle: servlet-api-2.5" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: dolphin-server-0.7" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: dolphin-server-0.9" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit-4.11" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: hamcrest-core-1.3" level="project" />
   </component>
