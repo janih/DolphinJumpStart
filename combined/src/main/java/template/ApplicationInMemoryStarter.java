@@ -1,20 +1,25 @@
 package template;
 
+import org.opendolphin.core.client.ClientDolphin;
+import org.opendolphin.core.client.ClientModelStore;
+import org.opendolphin.core.client.comm.InMemoryClientConnector;
 import org.opendolphin.core.client.comm.JavaFXUiThreadHandler;
-import org.opendolphin.core.comm.DefaultInMemoryConfig;
+import org.opendolphin.core.server.ServerDolphin;
 
 public class ApplicationInMemoryStarter {
-    public static void main(String[] args) throws Exception {
-        DefaultInMemoryConfig config = new DefaultInMemoryConfig();
-        config.getServerDolphin().registerDefaultActions();
-        config.getClientDolphin().getClientConnector().setUiThreadHandler(new JavaFXUiThreadHandler());
-        registerApplicationActions(config);
-        template.Application.clientDolphin = config.getClientDolphin();
-        javafx.application.Application.launch(template.Application.class);
-    }
+	public static void main(String[] args) throws Exception {
+		ClientDolphin clientDolphin = new ClientDolphin();
+		clientDolphin.setClientModelStore(new ClientModelStore(clientDolphin));
+		InMemoryClientConnector connector = new InMemoryClientConnector(clientDolphin);
+		connector.setUiThreadHandler(new JavaFXUiThreadHandler());
+		clientDolphin.setClientConnector(connector);
 
-    private static void registerApplicationActions(DefaultInMemoryConfig config) {
-        config.getServerDolphin().register(new ApplicationDirector());
-    }
+		template.Application.clientDolphin = clientDolphin;
+		javafx.application.Application.launch(template.Application.class);
+	}
+
+	private static void registerApplicationActions(ServerDolphin config) {
+		config.	register(new ApplicationDirector());
+	}
 
 }

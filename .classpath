@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="client/src/main/java"/>
+	<classpathentry kind="src" path="combined/src/main/java"/>
+	<classpathentry kind="src" path="combined/src/test/java"/>
+	<classpathentry kind="src" path="server/src/main/java"/>
+	<classpathentry kind="src" path="shared/src/main/java"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/4.11/junit-4.11.jar" sourcepath="M2_REPO/junit/junit/4.11/junit-4.11-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/home/jani/.m2/repository/junit/junit/4.11/junit-4.11-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>	
+	<classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar" sourcepath="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar" sourcepath="M2_REPO/javax/inject/javax.inject/1/javax.inject-1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/jani/.m2/repository/javax/inject/javax.inject/1/javax.inject-1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/open-dolphin/dolphin-client-javafx/0.12-SNAPSHOT/dolphin-client-javafx-0.12-SNAPSHOT.jar" sourcepath="M2_REPO/org/open-dolphin/dolphin-client-javafx/0.12-SNAPSHOT/dolphin-client-javafx-0.12-SNAPSHOT-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/jani/.m2/repository/org/open-dolphin/dolphin-client-javafx/0.12-SNAPSHOT/dolphin-client-javafx-0.12-SNAPSHOT-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/groovy/groovy-all/2.3.7/groovy-all-2.3.7.jar" sourcepath="M2_REPO/org/codehaus/groovy/groovy-all/2.3.7/groovy-all-2.3.7-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/jani/.m2/repository/org/codehaus/groovy/groovy-all/2.3.7/groovy-all-2.3.7-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/open-dolphin/dolphin-client/0.12-SNAPSHOT/dolphin-client-0.12-SNAPSHOT.jar" sourcepath="M2_REPO/org/open-dolphin/dolphin-client/0.12-SNAPSHOT/dolphin-client-0.12-SNAPSHOT-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/jani/.m2/repository/org/open-dolphin/dolphin-client/0.12-SNAPSHOT/dolphin-client-0.12-SNAPSHOT-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/open-dolphin/dolphin-shared/0.12-SNAPSHOT/dolphin-shared-0.12-SNAPSHOT.jar" sourcepath="M2_REPO/org/open-dolphin/dolphin-shared/0.12-SNAPSHOT/dolphin-shared-0.12-SNAPSHOT-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/jani/.m2/repository/org/open-dolphin/dolphin-shared/0.12-SNAPSHOT/dolphin-shared-0.12-SNAPSHOT-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/gpars/gpars/1.0.0/gpars-1.0.0.jar" sourcepath="M2_REPO/org/codehaus/gpars/gpars/1.0.0/gpars-1.0.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/jani/.m2/repository/org/codehaus/gpars/gpars/1.0.0/gpars-1.0.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/jsr166-mirror/jsr166y/1.7.0/jsr166y-1.7.0.jar" sourcepath="M2_REPO/org/codehaus/jsr166-mirror/jsr166y/1.7.0/jsr166y-1.7.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/jani/.m2/repository/org/codehaus/jsr166-mirror/jsr166y/1.7.0/jsr166y-1.7.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1.jar" sourcepath="M2_REPO/org/apache/httpcomponents/httpclient/4.2.1/httpclient-4.2.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar" sourcepath="M2_REPO/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/jani/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.6/commons-codec-1.6.jar" sourcepath="M2_REPO/commons-codec/commons-codec/1.6/commons-codec-1.6-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/jani/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="M2_REPO/org/open-dolphin/dolphin-server/0.12-SNAPSHOT/dolphin-server-0.12-SNAPSHOT.jar" sourcepath="M2_REPO/org/open-dolphin/dolphin-server/0.12-SNAPSHOT/dolphin-server-0.12-SNAPSHOT-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/jani/.m2/repository/org/open-dolphin/dolphin-server/0.12-SNAPSHOT/dolphin-server-0.12-SNAPSHOT-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
